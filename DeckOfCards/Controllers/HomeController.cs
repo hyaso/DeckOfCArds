@@ -49,7 +49,7 @@ namespace DeckOfCards.Controllers
 
             // Draw a few cards
             string deckId = apiResponse.deck_id;
-            int noCardsToDraw = 2;
+            int noCardsToDraw = 5;
             string drawDeckOfCardsApiFormat = $"https://deckofcardsapi.com/api/deck/{deckId}/draw/?count={noCardsToDraw}";
             // This is what the response looks like:
             // {
